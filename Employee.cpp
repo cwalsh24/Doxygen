@@ -2,7 +2,7 @@
  * @file Employee.cpp
  * @author Connor Walsh
  * @date 2022-11-03
- * @brief implementation of the Employee class
+ * @brief Implementation of the Employee class
  * 
  * This file contains the implementation of the methods in the Employee class.
  */

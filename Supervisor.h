@@ -14,10 +14,11 @@
 
 
 /**
- * this class represents a Supervisor object
+ * This class represents a Supervisor object.
  *
  * @class Supervisor Supervisor.h "doxygen/Supervisor.h"
- * @brief has methods to store values for various Supervisor attributes
+ * @brief This class contains methods to store values for 
+ * various Supervisor attributes. 
  *
  */
 class Supervisor : public Employee {
@@ -26,44 +27,44 @@ class Supervisor : public Employee {
  public:
 
 /**
- * prints the values stored in the Supervisor object
+ * This method prints the values stored in the Supervisor object.
  *
- * @pre there must be a Supervisor object declared
- * @return void this function returns nothing
- * @post the Supervisor values have been printed
+ * @pre There must be a Supervisor object declared.
+ * @return void This function returns nothing.
+ * @post The Supervisor values have been printed.
  * 
  */
   void print();
 
 /**
- * calculates the pay for a Supervisor
+ * Calculates the pay for a Supervisor.
  *
- * @pre there must be a supervisor object declared
- * @return double returns the value of the payment
- * @post the payment has been calculated and returned
+ * @pre There must be a supervisor object declared.
+ * @return double The method returns the value of the payment as a double.
+ * @post The payment has been calculated and returned.
  * 
  */
   double calculatePay();
 
 /**
- * constructor for the Supervisor class
+ * This is the Constructor for the Supervisor class.
  *
- * @pre the Supervisor object must be declared
- * @post the Supervisor object has been constructed
+ * @pre The Supervisor object must be declared.
+ * @post The Supervisor object has been constructed. 
  * 
  */
   Supervisor();
 
 /**
- * parameterized constructor for a Supervisor object
+ * This is the parameterized constructor for a Supervisor object.
  *
- * @param int ID ID number
- * @param int years years worked
- * @param double hourlyRate pay by hour
- * @param float hoursWorked number of hours worked
- * @param int numSupervised number of people supervised by the supervisor
- * @pre there must be a Supervisor object declared
- * @post a Supervisor object with the specified parameters has been created
+ * @param int ID ID number for an employee
+ * @param int years Employee years worked
+ * @param double hourlyRate Employee pay by the hour
+ * @param float hoursWorked Number of hours worked by the Employee 
+ * @param int numSupervised Number of people supervised by the supervisor
+ * @pre There must be a Supervisor object declared.
+ * @post A Supervisor object with the specified parameters has been created.
  * 
  */
   Supervisor(int ID, int years, double hourlyRate, float hoursWorked, int numSupervised);

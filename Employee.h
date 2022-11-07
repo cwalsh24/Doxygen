@@ -11,11 +11,11 @@
 
 
 /**
- * this class creates an Employee object along with several values 
- * relating to employees
+ * This class creates an Employee object along with several values 
+ * relating to employees.
  *
  * @class Employee Employee.h "doxygen/Employee.h"
- * @brief this is an Employee object class
+ * @brief This is an Employee object class.
  *
  */
 class Employee {
@@ -29,22 +29,22 @@ class Employee {
  public:
 
 /**
- * prints the values associated with the Employee object
+ * This method prints the values associated with the Employee object.
  *
- * @pre there must be an Employee object to print values from
- * @return void this method returns nothing
- * @post the values in the Employee object have been printed
+ * @pre There must be an Employee object to print values from.
+ * @return void This method returns nothing.
+ * @post The values in the Employee object have been printed.
  * 
  */
   virtual void print();
   
 
 /**
- * this method calculates the pay for an employee
+ * This method calculates the pay for an employee.
  *
- * @pre an Employee object must be declared
- * @return double this method returns a double amount for payment
- * @post the pay for the employee has been calculated
+ * @pre An Employee object must be declared before use. 
+ * @return double This method returns a double amount for payment.
+ * @post The pay for the employee has been calculated.
  * 
  */
   virtual double calculatePay();
@@ -53,31 +53,31 @@ class Employee {
  * This function prints the ID for an employee along with their years worked. 
  * It also increases the year value by one and changes the hourlyRate.  
  *
- * @pre an Employee object must be declared by the user
- * @return void this function returns nothing
- * @post information for the Employee and their years worked has been printed
+ * @pre An Employee object must be declared by the user.
+ * @return void This function returns nothing.
+ * @post Information for the Employee and their years worked has been printed.
  * 
  */
   void anniversary();
 
 /**
- * this is the constructor for the Employee class
+ * This is the constructor for the Employee class.
  *
- * @pre an Employee object must be declared
- * @post an Employee object has been created
+ * @pre An Employee object must be declared.
+ * @post An Employee object has been created.
  * 
  */
   Employee();
 
 /**
- * this is a parameterized constructor for an Employee object
+ * This is a parameterized constructor for an Employee object.
  *
- * @param int ID ID for employee
- * @param int years years worked
- * @param double hourlyRate payment per hour
- * @param float hoursWorked number of hours worked
- * @pre a valid Employee object with valid parameters must be declared
- * @post the Employee object has been constructed
+ * @param int ID This is the ID for an employee.
+ * @param int years Number of years worked for an employee. 
+ * @param double hourlyRate Payment per hour for an employee. 
+ * @param float hoursWorked Number of hours worked for an Employee. 
+ * @pre A valid Employee object with valid parameters must be declared.
+ * @post The Employee object has been constructed.
  * 
  */
   Employee(int ID, int years, double hourlyRate, float hoursWorked);
